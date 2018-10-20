@@ -1,0 +1,38 @@
+/*clase para eliminar los margenes internos*/
+.no-padding {
+    padding:0 !important;    
+    }
+/*clase para AUMENTAR EL MARGEN EN LA PARTE INFERIOR*/
+.margin {
+    margin-bottom:20px;
+}
+.color-rojo:hover{
+    color:#FF0000
+}
+/*ELEMENTO QUE COLOCA TODO LO QUE TENGA COL_MD_4 EN VERDE:*/
+.col-md-4 span{
+    border:2px solid #00FF00;
+    background: #0000FF;
+    border-radius: 50%
+}
+.col-md-6 div{
+    border: 3px dotted #aa00aa;
+}
+/* identificador*/
+#alto{
+    height: 100vh;
+    background: #000000;
+}
+.col-md-4:hover{
+    background-color: #0F0;
+    transition:background-color 2s;
+}
+.col-md-4{
+    transition:background-color 2s;
+}
+.col-md-4::before{
+    content: 'xxx';
+}
+.col-md-4::after{
+    content: 'yyy';
+}
